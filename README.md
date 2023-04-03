@@ -1,5 +1,5 @@
 
-# federated-gcn
+# Federated Learning for Logistic Regression with pytorch
 
 <!-- badges: start -->
 <!-- badges: end -->
