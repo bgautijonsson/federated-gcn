@@ -7,3 +7,8 @@ supervised.log
 *.ipynb
 __*
 .ipynb*
+.Rproj.user
+.Rhistory
+.Rdata
+.httr-oauth
+.DS_Store
