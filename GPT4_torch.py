@@ -135,12 +135,12 @@ def main():
     datasets_test = []
     
     for i in range(30):
-        data_file = f"data_{i}.parquet"
+        data_file = f"train_data/data_{i}.parquet"
         data_table = pq.read_table(data_file)
         data_df = data_table.to_pandas()
         data_train = data_df.drop(columns=["ml"]).values
         labels_train = data_df["ml"].values
-        data_test_file = f"test_data_{i}.parquet"
+        data_test_file = f"test_data/test_data_{i}.parquet"
         data_test_table = pq.read_table(data_test_file)
         data_test_df = data_test_table.to_pandas()
         data_test = data_test_df.drop(columns=["ml"]).values
